@@ -184,7 +184,7 @@ Each step pulls its data live from the APIs, so exact figures move slightly as n
 | Data | Source | Terms |
 |---|---|---|
 | Congress trades, lobbying, federal contracts, Trump trades | [Quiver Quantitative API](https://api.quiverquant.com) | Commercial API, bring your own key |
-| Stock prices and benchmarks (daily and intraday, adjusted) | [Massive](https://massive.com/?utm_campaign=losing-loonies) (formerly Polygon.io, affiliate link) | Commercial API, bring your own key |
+| Stock prices and benchmarks (daily and intraday, adjusted) | [Massive](https://massive.com/?utm_campaign=losing-loonies) (affiliate link) | Commercial API, bring your own key |
 | Committee membership | [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) | Public domain |
 
 All underlying facts (trades, filings, contract awards) are public record. Quiver's value is aggregating and normalizing them into one API instead of dozens of government websites.
