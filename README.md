@@ -4,7 +4,7 @@
 
 This is the companion code for the [LosingLoonies](https://www.youtube.com/@LosingLoonies) video. Every chart, statistic, and dollar figure below is produced by the notebooks in this repo.
 
-> **Watch the video:** link coming at publish. Subscribe at [youtube.com/@LosingLoonies](https://www.youtube.com/@LosingLoonies).
+> **Watch the video:** [youtu.be/LvUcTBmVCXI](https://youtu.be/LvUcTBmVCXI). Subscribe at [youtube.com/@LosingLoonies](https://www.youtube.com/@LosingLoonies).
 
 ---
 
@@ -23,7 +23,7 @@ This repository is data analysis and educational content. **It is not investment
 
 | | |
 |---|---|
-| Video | [LosingLoonies on YouTube](https://www.youtube.com/@LosingLoonies) (direct link at publish) |
+| Video | [Watch on YouTube](https://youtu.be/LvUcTBmVCXI) |
 | Quiver Quantitative | [quiverquant.com](https://www.quiverquant.com), code `LOONIES` for 50% off year one |
 | Quiver API | [api.quiverquant.com](https://api.quiverquant.com) |
 | Market data (Massive) | [massive.com](https://massive.com) |
