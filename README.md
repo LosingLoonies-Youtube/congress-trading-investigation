@@ -12,10 +12,17 @@ This is the companion code for the [LosingLoonies](https://www.youtube.com/@Losi
 
 **This video is sponsored by [Quiver Quantitative](https://www.quiverquant.com).** Quiver paid to sponsor the video. All data sourcing, code, methodology, analysis, and conclusions are editorially independent, including the finding that a naive "copy Congress" strategy does **not** reliably beat the market.
 
-* **Quiver Quantitative** ([quiverquant.com](https://www.quiverquant.com), API at [api.quiverquant.com](https://api.quiverquant.com)) is the sponsor and the source of every alternative dataset used here: Congress trades, corporate lobbying, government contracts, and Trump trades. **Use code `LOONIES` for 50% off the first year of any Quiver subscription.**
-* **Massive** (formerly Polygon.io, [massive.com](https://massive.com)) provides the historical stock prices and benchmarks. Massive is **not** a paid sponsor of this video. It is disclosed here only because the project relies on its market data API and the author holds an account with them.
+Quiver Quantitative ([quiverquant.com](https://www.quiverquant.com), API at [api.quiverquant.com](https://api.quiverquant.com)) is the sponsor and the source of every alternative dataset used here: Congress trades, corporate lobbying, government contracts, and Trump trades. **Use code `LOONIES` for 50% off the first year of any Quiver subscription.**
 
 This repository is data analysis and educational content. **It is not investment advice, and nothing here is a recommendation to buy or sell any security.** Past performance, including any backtested result, does not predict future returns.
+
+---
+
+## Data Provider
+
+Daily stock prices and financial data are fetched from [Massive](https://massive.com/?utm_campaign=losing-loonies).
+
+Disclosure: The link above is an affiliate link. We may receive a commission if you sign up through it, at no extra cost to you.
 
 ---
 
@@ -26,7 +33,7 @@ This repository is data analysis and educational content. **It is not investment
 | Video | [Watch on YouTube](https://youtu.be/LvUcTBmVCXI) |
 | Quiver Quantitative | [quiverquant.com](https://www.quiverquant.com), code `LOONIES` for 50% off year one |
 | Quiver API | [api.quiverquant.com](https://api.quiverquant.com) |
-| Market data (Massive) | [massive.com](https://massive.com) |
+| Market data (Massive) | [massive.com](https://massive.com/?utm_campaign=losing-loonies) (affiliate link) |
 
 ---
 
@@ -177,7 +184,7 @@ Each step pulls its data live from the APIs, so exact figures move slightly as n
 | Data | Source | Terms |
 |---|---|---|
 | Congress trades, lobbying, federal contracts, Trump trades | [Quiver Quantitative API](https://api.quiverquant.com) | Commercial API, bring your own key |
-| Stock prices and benchmarks (daily and intraday, adjusted) | [Massive](https://massive.com) (formerly Polygon.io) | Commercial API, bring your own key |
+| Stock prices and benchmarks (daily and intraday, adjusted) | [Massive](https://massive.com/?utm_campaign=losing-loonies) (formerly Polygon.io, affiliate link) | Commercial API, bring your own key |
 | Committee membership | [unitedstates/congress-legislators](https://github.com/unitedstates/congress-legislators) | Public domain |
 
 All underlying facts (trades, filings, contract awards) are public record. Quiver's value is aggregating and normalizing them into one API instead of dozens of government websites.
