@@ -1,0 +1,40 @@
+{
+  "engine_v1": {
+    "total_trades": 44270,
+    "unique_tickers": 3186,
+    "unique_reps": 246,
+    "date_start": "2012-06-06",
+    "date_end": "2026-05-01",
+    "avg_trade_return": 0.019275872702503173,
+    "avg_spy_return": 0.023203849578659553,
+    "avg_excess_return": -0.003927976876156379,
+    "win_rate": 0.5603794894962729,
+    "beat_spy_rate": 0.4723966568782471,
+    "final_portfolio": 39395.03250517377,
+    "final_spy": 56586.34538152611
+  },
+  "engine_v2": {
+    "total_trades": 43749,
+    "unique_tickers": 3160,
+    "unique_reps": 242,
+    "date_start": "2012-06-06",
+    "date_end": "2026-04-21",
+    "avg_trade_return": 0.02046928675558027,
+    "avg_spy_return": 0.02321306493550392,
+    "avg_excess_return": -0.0027437781799236494,
+    "win_rate": 0.5609956799012549,
+    "beat_spy_rate": 0.46826213170586756,
+    "final_portfolio": 31702.615284044474,
+    "final_spy": 40950.31805220443
+  },
+  "disclosure_delay": {
+    "avg_delay_days": 47.856270941982466,
+    "median_delay_days": 28.0,
+    "pct_over_45_days": 0.13015029857440616,
+    "max_delay_days": 4112,
+    "n_transactions": 113707
+  },
+  "hold_days": 60,
+  "v2_entry_rule": "filing date + 1 day",
+  "v1_minus_v2_avg_return": -0.0011934140530770986
+}

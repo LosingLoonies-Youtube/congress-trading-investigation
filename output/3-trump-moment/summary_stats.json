@@ -1,0 +1,24 @@
+{
+  "n_disclosed_trades_api": 112,
+  "api_note": "Quiver trumpstocktrades endpoint returns the most recent 200 records; the full OGE 278-T filing count must be verified against the primary document.",
+  "n_clean_buys": 65,
+  "engine_v1": {
+    "avg_trade_return": 0.0017559042011763503,
+    "avg_excess_return": -0.020567582464005897,
+    "win_rate": 0.4153846153846154,
+    "pct_open_holds": 0.0
+  },
+  "engine_v2": {
+    "avg_trade_return": 0.028468814638884433,
+    "avg_excess_return": 0.032999870414978136,
+    "win_rate": 0.5384615384615384,
+    "pct_open_holds": 1.0
+  },
+  "april_9_2025": {
+    "spy_change_post_to_pause": 0.011308006635109447,
+    "spy_change_hour_after_pause": 0.07431040345648388,
+    "spy_change_full_day": 0.10307230869001294,
+    "minutes_post_to_pause": 221
+  },
+  "hold_days": 60
+}

@@ -1,0 +1,25 @@
+{
+  "total_trades": 44294,
+  "unique_tickers": 3191,
+  "unique_reps": 246,
+  "date_start": "2012-06-06",
+  "date_end": "2026-05-01",
+  "avg_trade_return": 0.01939476702137667,
+  "avg_spy_return": 0.023305561850108174,
+  "avg_excess_return": -0.003910794828731503,
+  "win_rate": 0.5606854201471982,
+  "beat_spy_rate": 0.4725922246805436,
+  "final_portfolio": 39378.49009653836,
+  "final_spy": 56586.34538152611,
+  "engine": "v1_transaction_date_entry",
+  "hold_days": 60,
+  "portfolio_model": "equal-weight daily rebalance across open positions",
+  "top_politician": "John Fetterman",
+  "top_politician_return": 0.38166289573273265,
+  "best_trade": {
+    "representative": "Michael T. McCaul",
+    "ticker": "SRM",
+    "date": "2025-04-23",
+    "return_60d": 19.54466230936819
+  }
+}

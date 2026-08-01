@@ -1,0 +1,51 @@
+{
+  "universe": 32,
+  "top_k": 8,
+  "start": "2015-01-31",
+  "end": "2026-05-31",
+  "n_months": 136,
+  "strategies": {
+    "Composite (all 3)": {
+      "final_10k": 41588,
+      "cagr": 0.134,
+      "avg_monthly_excess": 0.0007,
+      "pct_months_beat_spy": 0.529
+    },
+    "Bottom 8 (composite)": {
+      "final_10k": 177953,
+      "cagr": 0.2892,
+      "avg_monthly_excess": 0.01287,
+      "pct_months_beat_spy": 0.596
+    },
+    "Lobbying only": {
+      "final_10k": 32792,
+      "cagr": 0.1105,
+      "avg_monthly_excess": -0.00091,
+      "pct_months_beat_spy": 0.485
+    },
+    "Contracts only": {
+      "final_10k": 27738,
+      "cagr": 0.0942,
+      "avg_monthly_excess": -0.00196,
+      "pct_months_beat_spy": 0.471
+    },
+    "Congress buys only": {
+      "final_10k": 39519,
+      "cagr": 0.1289,
+      "avg_monthly_excess": 0.00033,
+      "pct_months_beat_spy": 0.485
+    },
+    "Hold all 32 (no signal)": {
+      "final_10k": 57511,
+      "cagr": 0.1669,
+      "avg_monthly_excess": 0.00318,
+      "pct_months_beat_spy": 0.566
+    }
+  },
+  "spy": {
+    "final_10k": 37566,
+    "cagr": 0.1239
+  },
+  "composite_IC_mean": -0.0255,
+  "composite_IC_pct_positive": 0.426
+}

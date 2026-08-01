@@ -1,0 +1,151 @@
+{
+  "method": {
+    "universe_tickers": 32,
+    "scoped_buys": 3549,
+    "lobby_window_days": 90,
+    "contract_window_days": 180,
+    "weights": {
+      "timing": 0.3,
+      "contract_usd": 0.25,
+      "lobby_usd": 0.2,
+      "committee": 0.15,
+      "trade_usd": 0.1
+    },
+    "award_date_note": "All award timing is keyed on USASpending action_date (the date the contract action happened). Quiver's Date column is its publish/ingest date \u2014 its 2022 rows are a multi-year backfill, so timing keyed on Date would be an ingest artifact.",
+    "committee_source": "unitedstates/congress-legislators (public domain)",
+    "committee_note": "Membership is CURRENT-congress only, so old buys are scored against today's seats \u2014 fine for recent cases, wrong for former members. Verify the seat held on the buy date."
+  },
+  "hero_case": {
+    "ticker": "LMT",
+    "representative": "C. Scott Franklin",
+    "sector": "defense",
+    "committees": "House Committee on Armed Services (117th Cong., verified H. Rept. 117-666)",
+    "buy_date": "2022-09-12",
+    "lobby_usd_pm90d": 11242940.0,
+    "largest_award_usd": 52375548.61,
+    "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+    "days_buy_to_award": 1,
+    "stock_move_120d": 0.10426619529906378,
+    "confidence": "HIGH \u2014 verify against public record"
+  },
+  "second_case": {
+    "ticker": "MSFT",
+    "representative": "Ro Khanna",
+    "sector": "fedtech",
+    "committees": "House Committee on Armed Services; House Committee on Oversight and Government Reform",
+    "buy_date": "2023-09-06",
+    "lobby_usd_pm90d": 8855000.0,
+    "largest_award_usd": 16036780.0,
+    "largest_award_agency": "Department of State",
+    "days_buy_to_award": 5,
+    "stock_move_120d": 0.1053232396058641,
+    "confidence": "HIGH \u2014 verify against public record"
+  },
+  "shortlist": [
+    {
+      "ticker": "LMT",
+      "representative": "C. Scott Franklin",
+      "sector": "defense",
+      "committees": "House Committee on Appropriations",
+      "buy_date": "2022-09-12",
+      "lobby_usd_pm90d": 11242940.0,
+      "largest_award_usd": 52375548.61,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 1,
+      "stock_move_120d": 0.10426619529906378,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "LMT",
+      "representative": "Ro Khanna",
+      "sector": "defense",
+      "committees": "House Committee on Armed Services",
+      "buy_date": "2019-01-18",
+      "lobby_usd_pm90d": 17423563.0,
+      "largest_award_usd": 528044959.0,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 6,
+      "stock_move_120d": 0.20907130483967906,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "PLTR",
+      "representative": "Gilbert Cisneros",
+      "sector": "defense",
+      "committees": "House Committee on Armed Services",
+      "buy_date": "2026-04-14",
+      "lobby_usd_pm90d": 5455000.0,
+      "largest_award_usd": 94687811.42,
+      "largest_award_agency": "Department of Agriculture",
+      "days_buy_to_award": 3,
+      "stock_move_120d": null,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "NOC",
+      "representative": "William R. Keating",
+      "sector": "defense",
+      "committees": "House Committee on Armed Services",
+      "buy_date": "2021-03-17",
+      "lobby_usd_pm90d": 7855000.0,
+      "largest_award_usd": 291930500.0,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 7,
+      "stock_move_120d": 0.17242489615867607,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "NOC",
+      "representative": "Ro Khanna",
+      "sector": "defense",
+      "committees": "House Committee on Armed Services",
+      "buy_date": "2019-06-03",
+      "lobby_usd_pm90d": 9255000.0,
+      "largest_award_usd": 194747348.02,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 4,
+      "stock_move_120d": 0.19824721443930415,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "MSFT",
+      "representative": "Ro Khanna",
+      "sector": "fedtech",
+      "committees": "House Committee on Armed Services; House Committee on Oversight and Government Reform",
+      "buy_date": "2023-09-06",
+      "lobby_usd_pm90d": 8855000.0,
+      "largest_award_usd": 16036780.0,
+      "largest_award_agency": "Department of State",
+      "days_buy_to_award": 5,
+      "stock_move_120d": 0.1053232396058641,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "GD",
+      "representative": "Lois Frankel",
+      "sector": "defense",
+      "committees": "House Committee on Appropriations",
+      "buy_date": "2022-07-20",
+      "lobby_usd_pm90d": 4137500.0,
+      "largest_award_usd": 562520000.0,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 8,
+      "stock_move_120d": 0.13750461424880034,
+      "confidence": "HIGH \u2014 verify against public record"
+    },
+    {
+      "ticker": "MSFT",
+      "representative": "Josh Gottheimer",
+      "sector": "fedtech",
+      "committees": "House Permanent Select Committee on Intelligence",
+      "buy_date": "2021-10-28",
+      "lobby_usd_pm90d": 7380000.0,
+      "largest_award_usd": 2374491.9,
+      "largest_award_agency": "DEPARTMENT OF DEFENSE (DOD)",
+      "days_buy_to_award": 1,
+      "stock_move_120d": -0.0833667334669339,
+      "confidence": "MEDIUM \u2014 alignment present, award size/timing weaker"
+    }
+  ],
+  "caveat": "Every case is legal, public activity. Verify each shortlist row against the Senate LDA database, USASpending.gov, and the original disclosure before committing any name/ticker to the script."
+}

@@ -1,0 +1,28 @@
+# Secrets — never commit API keys
+.env
+FABLE_PROMPT.md
+
+# Working / private material
+/style/
+/temp/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data caches (re-fetched from APIs on demand)
+*.pkl
+cache/
+output/**/price_cache.pkl
+
+# Render/build logs and scraped reference pages (regenerated locally)
+output/**/*render*log*.txt
+*_render_log*.txt
+govtrack_help.html
+
+# Rendered videos: kept local for YouTube, not shipped in the repo.
+# Static PNG stills live in images/ and are used in the README instead.
+*.mp4

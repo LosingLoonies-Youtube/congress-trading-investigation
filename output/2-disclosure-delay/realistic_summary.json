@@ -1,0 +1,12 @@
+{
+  "engine": "realistic_disclosure_to_disclosure_hold_until_sell",
+  "n_trades": 31379,
+  "avg_hold_days": 267.67628031486026,
+  "congress_avg_return": 0.09528992361728415,
+  "spy_avg_return": 0.09049651821454234,
+  "avg_excess_all": 0.004793405402741814,
+  "avg_excess_without_whitehouse": -0.023612655191084894,
+  "win_rate": 0.5266898244048568,
+  "beat_spy_rate": 0.41100736161126866,
+  "whitehouse_trades_removed": 276
+}
